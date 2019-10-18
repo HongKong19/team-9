@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import  "./views/login";
+import Login from './views/login';
 
 function App() {
   return (
     <div className="App">
+    <login/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <Login name="Magow"/>
       </header>
     </div>
   );
