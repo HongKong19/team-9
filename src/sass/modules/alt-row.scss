@@ -1,0 +1,59 @@
+/**
+ * Modules - Alternative Row
+ */
+ .alt-row {
+    &--grey-bg {
+        background: #efefef;
+    }
+    &__container {
+        padding-top: calculateSize(100px, 'rem');
+        padding-bottom: calculateSize(100px, 'rem');
+    }
+    &__title {
+        font-size: calculateSize(32px, 'rem');
+        font-weight: bold;
+        line-height: calculateSize(40px, 'rem');
+        margin-bottom: calculateSize(16px, 'rem');
+    }
+    &__content {
+        margin-bottom: calculateSize(32px, 'rem');
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    &__icon {
+        &-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 1rem;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+        &-desc {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        &__icons {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        &__icons {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        &__icon {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}

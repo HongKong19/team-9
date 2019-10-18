@@ -1,0 +1,13 @@
+/**
+ *  Component - Image style
+ */
+ .image {
+    &__container {
+        text-align: center;
+        font-size: 0;
+        img {
+            max-width: 100%;
+            display: inline-block;
+        }
+    }
+}

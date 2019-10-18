@@ -1,0 +1,37 @@
+/**
+ *  Components - Link CSS
+ */
+ .link {
+    a {
+        // default is semi-bold weight
+        color: $theme-grey;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &--orange {
+        a {
+            color: $theme-orange;
+        }
+    }
+
+    &--black {
+        a {
+            color: $theme-black;
+        }
+    }
+
+    &--bold {
+        a {
+            font-weight: 700;
+        }
+    }
+
+    &--white {
+        a {
+            color: $theme-white;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+/**
+ *  Modules - Carousel SCSS
+ */
+ .carousel {
+    // hero slider carousel style
+    &--hero-slider {
+        .carousel {
+            &__item {
+                max-height: 500px;
+
+                &-img {
+                    padding-top: calc((1200 / 1920) * 100%);
+                }
+            }
+
+            &__nav {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                padding-top: calc((500 / 1920) * 100%);
+
+                &--prev,
+                &--next {
+                    position: absolute;
+                    z-index: 9;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background: $theme-white;
+                    cursor: pointer;
+
+                    .icon {
+                        font-size: 1rem;
+                    }
+                }
+
+                &--prev {
+                    left: 3rem;
+
+                    .icon {
+                        transform: rotate(90deg);
+                    }
+                }
+
+                &--next {
+                    right: 3rem;
+
+                    .icon {
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+
+            @media screen and (min-width: 576px) {
+                &__item {
+                    &-img {
+                        padding-top: calc((500 / 1920) * 100%);
+                    }
+                }
+            }
+        }       
+
+        .section--card {
+            margin-top: -150px; // should be the height of the box
+            position: relative;
+            z-index: 99;
+        }
+    }
+    // card carousel style
+    &--card {
+        .carousel {
+            &__item {
+                max-width: 250px;
+                width: 100%;
+                display: inline-block;
+                &.swiper-slide-active {
+                    .carousel__link {
+                        display: inherit;
+                    }
+                }
+            }
+            &__link {
+                font-size: 1.2em;
+                display: none;
+            }
+
+            @media screen and (min-width: 576px) {
+                &__item {
+                    max-width: 480px;
+                }
+            }
+        }
+    }
+    &--grey-bg {
+        background: $theme-grey-l;
+    }
+}

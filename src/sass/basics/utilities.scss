@@ -1,0 +1,26 @@
+/**
+ *  Utilities - some common use of class styles
+ */
+
+//  Color
+.color--theme-orange {
+    color: $theme-orange;
+}
+
+.color--theme-grey-icon {
+    color: $theme-grey-icon;
+}
+
+//  Fonts
+.font--bold {
+    font-weight: bold;
+}
+
+// Background Images Common
+.bg {
+    background-repeat: no-repeat;
+    &--cover-center {
+        background-size: cover;
+        background-position: center;
+    }
+}

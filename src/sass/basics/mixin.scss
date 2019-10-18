@@ -1,0 +1,26 @@
+/**
+ *  Functions
+ */
+
+// Calculate cooresponding size based on base size
+@function calculateSize($target-size, $unit) {
+    @if $unit == "" {
+        @return ($target-size / $base-size);
+    } @else if $unit == "rem" {
+        @return ($target-size / $base-size) * 1rem;
+    }    
+}
+
+
+/**
+ *  Mixins
+ */
+
+// Transition animation for background 
+@mixin bgTransition {
+    transition: background 0.3s ease;
+}
+
+@mixin colorTransition {
+    transition: color 0.3s ease;
+}

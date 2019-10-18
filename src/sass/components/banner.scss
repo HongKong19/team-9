@@ -1,0 +1,26 @@
+/**
+ *  Component - Banner style
+ */
+
+ .banner {
+    &--hero-graphic {
+       background-color: $theme-grey-l;
+       .banner {
+          &__container {
+             padding-top: 120px;
+             padding-bottom: 120px;
+             background-repeat: no-repeat;
+             background-size: auto 120%;
+             background-position: 90% center;
+          }
+          @media screen and (max-width: 575px) {
+             &__container {
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background-image: none !important;
+                text-align: center;
+             }
+          }
+       }
+    }
+ }

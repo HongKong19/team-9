@@ -1,0 +1,68 @@
+/**
+ *  Base
+ */
+ html,
+ body {
+     font-family: 'Work Sans', sans-serif;
+     font-size: $base-size;
+     line-height: calculateSize(20px, '');
+ }
+ 
+ /**
+  *  General Section SCSS
+  */
+ .section {
+     &__container {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         &--sm {
+             padding-top: 25px;
+             padding-bottom: 25px;
+         }
+     }
+ 
+     &--orange-gradient-bg {
+         background: #f17b46;
+         background: -moz-linear-gradient(top, #f17b46 0%, #ef5122 100%);
+         background: -webkit-linear-gradient(top, #f17b46 0%, #ef5122 100%);
+         background: linear-gradient(to bottom, #f17b46 0%, #ef5122 100%);
+         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f17b46', endColorstr='#ef5122', GradientType=0);
+     }
+     &--grey-bg {
+         background: $theme-grey-l;
+     }
+     &--adjust-top-80 {
+         @media screen and (min-width: 576px) {
+             transform: translateY(-80px);
+             margin-bottom: -80px; // remove the bottom spacing
+         }
+     }
+ }
+ 
+ .asc {
+     &:after {
+         width: 0;
+         height: 0;
+         border-left: 4px solid transparent;
+         border-right: 4px solid transparent;
+         border-top: 4px solid #2e2e2e;
+         content: "";
+         position: relative;
+         top: 11px;
+         right: -4px;
+     }
+ }
+ 
+ .desc {
+     &:after {
+         width: 0;
+         height: 0;
+         border-left: 4px solid transparent;
+         border-right: 4px solid transparent;
+         border-bottom: 4px solid #2e2e2e;
+         content: "";
+         position: relative;
+         top: -9px;
+         right: -4px;
+     }
+ }

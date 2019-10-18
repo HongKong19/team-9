@@ -1,0 +1,55 @@
+/**
+ *  Modules - Footer
+ */
+ .footer {
+    color: $theme-white;
+    bottom: 0;
+    min-width: 100%;
+
+    &__sitemap {
+        background: $theme-footer;
+        &-container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &__nav {
+        &-title {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: 1.15px;
+        }
+
+        &-link {
+            margin-top: 1rem;
+        }
+    }
+
+    &__social {
+        &-title {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: 1.15px;
+        }
+
+        &-icons {
+            margin-top: 1rem;
+        }
+    }
+
+    &__copyright {
+        background: $theme-copyright;
+        &-logo {
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+        &-text {
+            font-size: calculateSize(12px, 'rem');
+        }
+    }
+}

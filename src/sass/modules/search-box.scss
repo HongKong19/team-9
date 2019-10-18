@@ -1,0 +1,99 @@
+/**
+ *  Modules - Search box CSS
+ */
+ .search-box {
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
+  
+    &__dropdown {
+      width: 30%;
+      border-right: 2px solid $theme-grey-icon;
+      position: relative;
+  
+      .icon {
+        font-size: 1rem;
+  
+        [class*="icon-"] {
+          font-weight: 600;
+        }
+      }
+    }
+  
+    &__input {
+      // when disabled stock code
+      border: 0;
+      width: 100%;
+      position: relative;
+  
+      &-field {
+        width: 100%;
+        font-size: 0;
+      }
+  
+      .icon {
+        font-size: 1.5rem;
+        color: $theme-grey-icon;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: absolute;
+        right: 0;
+        z-index: 22;
+        top: 0;
+        bottom: 0;
+        cursor: pointer;
+  
+        &.active {
+          background: $theme-orange;
+          color: $theme-white;
+        }
+      }
+    }
+  
+    &__option {
+      display: flex;
+      padding: 1rem;
+      font-weight: 500;
+  
+      &.active {
+        background: $theme-grey-l;
+        color: inherit;
+        font-weight: 600;
+      }
+  
+      &-code {
+        margin-right: 1rem;
+      }
+    }
+  
+    // overwrite selectize.js default style
+    .selectize-input {
+      border: 0;
+      box-shadow: unset;
+  
+      &:before {
+        display: none;
+      }
+  
+      padding: 1rem 1.2rem !important;
+    }
+  
+    .selectize-dropdown {
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      border: 0;
+      margin-top: 8px;
+      font-size: calculateSize(14px, 'rem');
+    }
+  
+    .selectize-control.multi .selectize-input > div {
+      color: inherit;
+      background: transparent;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
