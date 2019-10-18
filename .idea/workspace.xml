@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b194266-ec3e-4b94-a7ea-25b4f62ded43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Form/extensiveForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/main_page/banner.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/appointment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modules/Carousel/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modules/Carousel/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/dist_assets_img_home-page_home--banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/robotic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/survey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/survey1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/unique-data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main_page/unique-data1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GoalPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GoalPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="483">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#264#305#0" expanded="true" />
@@ -108,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/modules/Carousel/Carousel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -121,17 +110,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/main_page/banner.jpeg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/views/appointment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1953">
+              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/images/main_page/banner.jpeg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -171,17 +163,17 @@
         <option value="$PROJECT_DIR$/src/views/CardPage/CardPage.js" />
         <option value="$PROJECT_DIR$/src/views/Login.js" />
         <option value="$PROJECT_DIR$/src/views/GoalPage.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Form/extensiveForm.js" />
         <option value="$PROJECT_DIR$/src/components/Form/form.js" />
         <option value="$PROJECT_DIR$/src/components/modules/Carousel/Carousel.js" />
+        <option value="$PROJECT_DIR$/src/views/appointment.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="970" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -294,7 +286,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571371469058</updated>
-      <workItem from="1571371470539" duration="13174000" />
+      <workItem from="1571371470539" duration="13846000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'sid' of https://github.com/HongKong19/team-9 into sid&#10;&#10;# Conflicts:&#10;#&#9;src/App.js&#10;#&#9;src/components/Form/form.js">
       <created>1571385188747</created>
@@ -303,14 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571385188747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="last minute">
+      <created>1571386362475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571386362475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13174000" />
+    <option name="totallyTimeSpent" value="13846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -318,16 +317,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32987553" />
-      <window_info anchor="bottom" id="Terminal" weight="0.23755187" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32946634" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.21161826" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" weight="0.32987553" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32987553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -349,7 +348,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'sid' of https://github.com/HongKong19/team-9 into sid&#10;&#10;# Conflicts:&#10;#&#9;src/App.js&#10;#&#9;src/components/Form/form.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'sid' of https://github.com/HongKong19/team-9 into sid&#10;&#10;# Conflicts:&#10;#&#9;src/App.js&#10;#&#9;src/components/Form/form.js" />
+    <MESSAGE value="last minute" />
+    <option name="LAST_COMMIT_MESSAGE" value="last minute" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/List/index.d.ts">
@@ -475,18 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#264#305#0" expanded="true" />
-            <element signature="e#431#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -545,6 +533,28 @@
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/appointment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#264#305#0" expanded="true" />
+            <element signature="e#431#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
