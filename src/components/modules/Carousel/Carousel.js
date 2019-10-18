@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SectionCard from '../../basics/Card/SectionCard/SectionCard';
-import Banner001 from '../../../images/main_page/banner.jpg';
+import Banner001 from '../../../images/main_page/banner.jpeg';
 
 
 class Carousel extends Component {

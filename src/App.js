@@ -6,6 +6,7 @@ import MainPage from './views/MainPage/MainPage'
 import Claim from './views/Claim/claim'
 // import Footer from './components/Footer/footer'
 import Form from './components/Form/form'
+import Form2 from './components/Form/extensiveForm'
 import Login from './views/Login'
 import GoalPage from './views/GoalPage'
 // import Navbar from './components/NavBar/navbar'
@@ -18,6 +19,7 @@ function App() {
     <Switch>
       <Route path="/" exact component={Login} />
       <Route path="/form" exact component={Form} />
+      <Route path="/form2" exact component={Form2} />
       <Route path="/" exact component={Form} />
       <Route path="/Staff" exact component={Staff}/>
       <Route path="/homePage" component={MainPage} />

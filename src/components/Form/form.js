@@ -167,7 +167,7 @@ export default function OutlinedTextFields() {
         </div>
         <Checkbox />
         {/* <Slider/> */}
-        <Link to="/homePage" style={{ color: '#FFF' }}>
+        <Link to="/form2" style={{ color: '#FFF' }}>
           <button style = {{
             backgroundColor: "white",
             border: "2px solid #008CBA",
