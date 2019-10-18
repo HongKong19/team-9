@@ -88,9 +88,20 @@ export default function SignIn() {
                 variant="contained"
                 color="primary"
               >
-                Log in
+                Register
               </Button>
-                </Link>
+              </Link>
+              <div style = {{padding: '5px'}}/>
+              <Link to="/homePage">
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  color="primary"
+                >
+                  Sign in
+                </Button>
+              </Link>
               <Grid container>
                 <Grid item xs>
                   <Link href="#" variant="body2">
@@ -142,6 +153,7 @@ export default function SignIn() {
                 control={<Checkbox value="remember" color="primary" />}
                 label="Remember me"
               />
+              <Link to = '/Staff'>
               <Button
                 type="submit"
                 fullWidth
@@ -151,6 +163,7 @@ export default function SignIn() {
               >
                 Sign In
               </Button>
+              </Link>
               <Grid container>
                 <Grid item xs>
                   <Link href="#" variant="body2">

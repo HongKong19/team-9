@@ -10,6 +10,7 @@ import Login from './views/Login'
 import GoalPage from './views/GoalPage'
 // import Navbar from './components/NavBar/navbar'
 import CardPage from './views/CardPage/CardPage'
+import Staff from './components/Staff/staff';
 // import Chatbot from './components/Chatbot/chatbot'
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <Switch>
       <Route path="/" exact component={Login} />
       <Route path="/form" exact component={Form} />
+      <Route path="/" exact component={Form} />
+      <Route path="/Staff" exact component={Staff}/>
       <Route path="/homePage" component={MainPage} />
       <Route path="/Claim" component={Claim} />
       <Route path="/goal" component={GoalPage} />
