@@ -29,11 +29,6 @@ export default function SimpleAppBar() {
          <Typography className={classes.typo} variant="h4"  >
          <Link to = "/">HIA</Link>
           </Typography>
-          <div style={{paddingLeft:"50px"}}>
-          <Typography variant="subtitle2">
-             Health In Insurance
-          </Typography>
-          </div>
           </div>
           
         </Toolbar>

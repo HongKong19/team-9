@@ -6,6 +6,8 @@ import MainPage from './views/MainPage/MainPage'
 import Claim from './views/Claim/claim'
 // import Footer from './components/Footer/footer'
 import Form from './components/Form/form'
+import Login from './views/Login'
+import GoalPage from './views/GoalPage'
 // import Navbar from './components/NavBar/navbar'
 import CardPage from './views/CardPage/CardPage'
 // import Chatbot from './components/Chatbot/chatbot'
@@ -13,10 +15,11 @@ import CardPage from './views/CardPage/CardPage'
 function App() {
   return (
     <Switch>
-      <Route path="/" exact component={Form} />
+      <Route path="/" exact component={Login} />
+      <Route path="/form" exact component={Form} />
       <Route path="/homePage" component={MainPage} />
-      <Route path="/Premium" component={CardPage} />
       <Route path="/Claim" component={Claim} />
+      <Route path="/goal" component={GoalPage} />
     </Switch>
     
   );

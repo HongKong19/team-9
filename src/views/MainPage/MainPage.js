@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from '../../components/modules/Carousel/Carousel';
-import InsuranceSection from '../../components/basics/InsuranceSection/InsuranceSection';
-import CardInsurance  from '../../components/basics/Card/CardInsurance/CardInsurance';
-import ServiceData from '../../components/basics/ServiceData/ServiceData';
+import AddYourGoal from '../../components/basics/AddYourGoal/AddYourGoal';
 
 
 class MainPage extends Component {
@@ -10,7 +8,7 @@ class MainPage extends Component {
         return (
             <div style={{ margin: '0px -15px' }}>
                 <Carousel />
-                <ServiceData/>
+                <AddYourGoal/>
 
             </div>
         );

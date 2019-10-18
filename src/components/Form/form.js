@@ -1,35 +1,31 @@
 import React from 'react';
-import clsx from 'clsx';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
 import Radio from '../Radio/radio'
 import Checkbox from '../Checkbox/checkbox'
-import OutlinedButtons from '../Button/button'
-import { InputBase } from '@material-ui/core';
-import Slider from '../Slider/slider'
 
 const currencies = [
   {
     value: 'zero',
-    label: '0',
+    label: 'IND',
   },
   {
     value: 'one',
-    label: '1',
+    label: 'HK',
   },
   {
     value: 'two',
-    label: '2',
+    label: 'US',
   },
   {
     value: 'three',
-    label: '3',
+    label: 'AUS',
   },
   {
     value: 'four',
-    label: '4',
+    label: 'ENG',
   },
 ];
 const choice = [
@@ -128,7 +124,7 @@ export default function OutlinedTextFields() {
           <TextField
             id="outlined-select-currency"
             select
-            label="No. of Children"
+            label="Nationality"
             className={classes.textField}
             value={values.currency}
             onChange={handleChange('currency')}
@@ -137,7 +133,6 @@ export default function OutlinedTextFields() {
                 className: classes.menu,
               },
             }}
-            helperText="Number of Children"
             margin="normal"
             variant="outlined"
           >
@@ -171,7 +166,6 @@ export default function OutlinedTextFields() {
           </TextField>
         </div>
         <Checkbox />
-        <Slider/>
         <Link to="/homePage" style={{ color: '#FFF' }}>
           <button style = {{
             backgroundColor: "white",

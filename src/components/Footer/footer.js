@@ -16,25 +16,7 @@ class Footer extends Component {
                         <div className='col-4'>
                           <div className='footer__nav-title'>About</div>
                           <div className='link link--white footer__nav-link'>
-                            <a className='link__text' href='http://www.google.com/'>Company</a>
-                          </div>
-                          <div className='link link--white footer__nav-link'>
-                            <a className='link__text' href='http://www.google.com/'>Insurances</a>
-                          </div>
-                          <div className='link link--white footer__nav-link'>
                             <a className='link__text' href='http://www.google.com/'>Contact Us</a>
-                          </div>
-                        </div>
-                        <div className='col-4'>
-                          <div className='footer__nav-title'>Premium Offers</div>
-                          <div className='link link--white footer__nav-link'>
-                            <a className='link__text' href='http://www.google.com/'>Golden band</a>
-                          </div>
-                          <div className='link link--white footer__nav-link'>
-                            <a className='link__text' href='http://www.google.com/'>Silver band</a>
-                          </div>
-                          <div className='link link--white footer__nav-link'>
-                            <a className='link__text' href='http://www.google.com/'>Bronze band</a>
                           </div>
                         </div>
                         <div className='col-4'>
