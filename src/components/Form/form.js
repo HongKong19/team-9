@@ -8,7 +8,7 @@ import Radio from '../Radio/radio'
 import Checkbox from '../Checkbox/checkbox'
 import OutlinedButtons from '../Button/button'
 import { InputBase } from '@material-ui/core';
-import Slider from '../Slider/slider'
+// import Slider from '../Slider/slider'
 
 const currencies = [
   {
@@ -171,7 +171,7 @@ export default function OutlinedTextFields() {
           </TextField>
         </div>
         <Checkbox />
-        <Slider/>
+        {/* <Slider/> */}
         <Link to="/homePage" style={{ color: '#FFF' }}>
           <button style = {{
             backgroundColor: "white",

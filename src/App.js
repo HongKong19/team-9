@@ -8,12 +8,14 @@ import Claim from './views/Claim/claim'
 import Form from './components/Form/form'
 // import Navbar from './components/NavBar/navbar'
 import CardPage from './views/CardPage/CardPage'
+import Staff from './components/Staff/staff';
 // import Chatbot from './components/Chatbot/chatbot'
 
 function App() {
   return (
     <Switch>
       <Route path="/" exact component={Form} />
+      <Route path="/Staff" exact component={Staff}/>
       <Route path="/homePage" component={MainPage} />
       <Route path="/Premium" component={CardPage} />
       <Route path="/Claim" component={Claim} />
